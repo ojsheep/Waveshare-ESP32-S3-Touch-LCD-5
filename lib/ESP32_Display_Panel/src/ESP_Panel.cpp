@@ -232,6 +232,7 @@ bool ESP_Panel::init(void)
         .bounce_buffer_size_px = ESP_PANEL_LCD_RGB_BOUNCE_BUF_SIZE,
         .sram_trans_align = 4,
         .psram_trans_align = 64,
+        //.bounce_buffer_size_px = 10 * 800,
         .hsync_gpio_num = ESP_PANEL_LCD_RGB_IO_HSYNC,
         .vsync_gpio_num = ESP_PANEL_LCD_RGB_IO_VSYNC,
         .de_gpio_num = ESP_PANEL_LCD_RGB_IO_DE,
